@@ -1,0 +1,104 @@
+.Cards {
+    margin: 0 10px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.19), 0 6px 6px rgba(255, 255, 255, 0.23);
+    border-radius: 10px 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    background: white;
+
+}
+
+.GridContainer{
+    
+}
+.TittleCardFirst{
+    display: flex;
+    margin: 20px 0px 0px 30px;
+}
+
+.CardSecondPart{
+    margin: 20px 16px 0px 154px;
+}
+.CardThirdPart{
+    margin: 40px 0px -50px 90px;
+    @media (max-width: 500px) {
+        margin: 40px 0px 0 0;
+    }
+}
+
+.TittleCardCertification {
+    text-align: center !important;
+    font-size: 18px !important;
+    font-weight: bolder !important;
+    padding-bottom: 5px;
+    
+}
+
+.TextCardCertification {
+    text-align: center !important;
+    font-size: 14px !important;
+}
+
+.contenedorCard {}
+
+.cardUnidad {
+    max-width: 30%;
+    margin-bottom: 3rem;
+}
+
+.textCertification {
+    font-weight: bolder !important;
+    font-size: 20px !important;
+}
+
+.TextCardCetification {
+    text-align: center;
+} 
+
+
+.IntervencionTittle{
+    padding-left: 15.5rem;
+    
+}
+
+.tableCellCalefaccion{
+    width: 50%;
+    text-align: center;
+}
+
+.ContainerFaja{
+    width: 100%;
+}
+
+.ContainerCompresor{
+    width: 100%;
+}
+.ContainerBlower{
+    width: 100%;
+}
+
+.ContainerSecador{
+    width: 100%;
+}
+.ContainerCondensador{
+    width: 100%;
+}
+.ContainerAcumulador{
+    width: 100%;
+}
+.ContainerEvaporador{
+    width: 100%;
+}
+.ContainerLineasdeCalefaccion{
+    width: 100%;
+}
+.ContainerControlAs{
+    width: 100%;
+}
+
+.ContainerTermostato{
+    
+}

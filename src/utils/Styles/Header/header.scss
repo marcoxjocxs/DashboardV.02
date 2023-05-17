@@ -1,0 +1,28 @@
+.HeaderBoxContainer{
+    display:flex;
+    justify-content: space-between;
+}
+.boxlogo{
+
+}
+.img_logo{
+    width: 150px;
+    height: 80px;
+   /*  padding-left: 125px; */
+    padding-top: 20px;
+    @media (max-width: 700px) {
+        padding-left: 50px;
+        width: 400px;
+        height: 150px;
+    }
+    @media (max-width: 500px) {
+        padding-left: 5px;
+        width: 350px;
+        height: 150px;
+    }
+}
+.TittlesHeader{
+    padding-top:20px;
+    /* margin-right: 50px;
+    padding-right: 330px; */
+}
